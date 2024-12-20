@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Lab7</title>
+    <link rel="stylesheet" href="113306007_Lab7.css">
+</head>
+<body>
+    <form id="gradeForm">
+        <label for="mathGrade"></label>
+        <input type="number" id="mathGrade" name="mathGrade" placeholder="Math" required>
+        <label for="englishGrade"></label>
+        <input type="number" id="englishGrade" name="englishGrade" placeholder="English" required>
+        <button type="submit">Submit</button>
+    </form>
+
+    <table id="gradesTable">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Math</th>
+                <th>English</th>
+                <th>Average</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Average</td>
+                <td id="mathAverage">No Data</td>
+                <td id="englishAverage">No Data</td>
+                <td id="overallAverage">No Data</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <script src="113306007_Lab7.js"></script>
+</body>
+</html>
